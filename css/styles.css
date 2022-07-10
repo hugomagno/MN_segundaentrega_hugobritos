@@ -31,7 +31,7 @@ header, footer {
 }
 
 .header {
-    border-bottom: 1vh linear-gradient(to right,#B273E6, red) solid;
+    border-bottom: 1vh #A9A9A9 solid;
     /* height: 100px; */
     padding-top: 1vh;
     grid-area: nav;
@@ -155,8 +155,7 @@ main {
 
 .section_one__div {
     display: flex;
-    border-bottom: 8px #fc7d7d solid;
-    /* align-items: center; */
+    border-bottom: 8px #A9A9A9 solid;
 }
 
 .section_one__img {
@@ -266,23 +265,41 @@ ol li::marker {
 }
 
 .section_two__div_two--subul ::marker {
-    color: #fc7d7d;
+    color: #17f3c8;
     font-size: 200%;
 }
 
-.section_three {
-    font-size: 2vw;
-    text-align: center;
-    color: #fc7d7d;
-    background: linear-gradient(95deg,#CAEBF2,#EFEFEF);
-    padding-bottom: 2rem;
+
+.botondos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* margin: 4vh; */
+}
+.boton-contactar2 {
+    width: 50vw;
+    height: 3vw;
+    font-size: 2.2vw;
+    border-radius: 2.5vw;
+    background-color: #A9A9A9;
+    cursor: pointer;
+    background-position: left;
+    transition: background-position 4s;
 }
 
-.section_three h2 {
-    color: black;
-    font-family: 'Roboto', sans-serif;
+.boton-contactar2:hover {
+    /* transform: translateY(-2px); */
+    transform: scale(1.2);
+    background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
+    background-size: 300%;
+    background-position: right;
+    color: #ffffff;
+    
 }
 
+.boton-contactar2:active {
+    transform: translate(10px);
+}
 
 
 /* AQUI TERMINA SECTION TWO */
