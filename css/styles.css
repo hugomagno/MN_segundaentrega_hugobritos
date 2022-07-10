@@ -200,7 +200,7 @@ main {
 
 .section_two__div_one {
     display: flex;
-    height: 30vw;
+    height: 20vw;
     align-items: center;
 }
 
@@ -208,7 +208,6 @@ main {
     font-size: 4em;
     background: linear-gradient(95deg, #740000, #B30000);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 10%;
     left: 10%;
@@ -225,7 +224,6 @@ main {
     justify-content: space-around;
     font-size: 3.5vw;
     list-style-type: none;
-    
 }
 
 .section_two__div_two--subul {
@@ -240,8 +238,8 @@ ol li::marker {
 }
 
 .section_two__div_two--subul ::marker {
-    color: #17f3c8;
-    font-size: 200%;
+    color: #B273E6;
+    font-size: 100%;
 }
 
 
@@ -249,6 +247,7 @@ ol li::marker {
     display: flex;
     justify-content: center;
     align-items: end;
+
 }
 .boton-contactar2 {
     width: 50vw;
@@ -259,6 +258,8 @@ ol li::marker {
     cursor: pointer;
     background-position: left;
     transition: all 2s;
+    text-shadow: .1rem -.1rem .1rem  #000000;
+    color: white;
 }
 
 .boton-contactar2:hover {
@@ -688,6 +689,18 @@ footer div a img {
         font-size: 3vw;
     }
    
+    .section_two__div_two--subul {
+        font-size: .5em;
+        margin-top: 2em;
+        line-height: 2;
+}
+
+    .boton-contactar2 {
+        width: 55vw;
+        height: 6vw;
+        font-size: 4.2vw;
+        border-radius: 2vw;
+    }
 }
 
 @media screen and (max-width: 720px) {
