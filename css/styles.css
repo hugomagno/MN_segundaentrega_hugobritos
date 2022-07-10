@@ -156,7 +156,6 @@ main {
 .section_one__img {
     width: 100%;
     position: relative;
-
     background-size: cover;
     transition: background-position 2s;
     z-index: 3;
@@ -165,6 +164,7 @@ main {
 .section_one__img:hover {
     background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
     background-position-x: 24vw;
+    z-index: 4;
 }
 
 
