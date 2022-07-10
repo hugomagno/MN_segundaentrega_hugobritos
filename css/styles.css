@@ -3,13 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     /* font-family: 'Roboto', sans-serif; */
     font-family: 'Yrsa', serif; 
 }
 
 .color1 {color: #b40404;}
-.color2 {color: #fc7d7d;} /*este color lo repito por la pleta, no me convence, revisar si podemos establecer otra paleta mejor */
+.color2 {color: #fc7d7d;} 
 .color3 {color: #950303;}
 .color4 {color: #CAEBF2;}
 .color5 {color: #A9A9A9;}
@@ -22,7 +21,6 @@ body {
     "nav nav nav"
     "main main main"
     "footer footer footer";
-    /* grid-template-columns: 1fr; */
     grid-template-rows: 1fr;
 }
 
@@ -32,7 +30,6 @@ header, footer {
 
 .header {
     border-bottom: 1vh #A9A9A9 solid;
-    /* height: 100px; */
     padding-top: 1vh;
     grid-area: nav;
 }
@@ -40,7 +37,7 @@ main {
     grid-area: main;
 }
 
-/* INICIA AQUÍ EL NAV*/
+/* AQUÍ INICIA EL --------------------NAV-------------------*/
 .nav {
     width: 100%;
     max-width: 1600px;
@@ -87,7 +84,6 @@ main {
 .nav__ul li {
     list-style: none;
     display: block;
-    /* display: flex; */
     margin: 0 1.3em;
     text-decoration: none;
     font-size: 2vw;
@@ -129,7 +125,6 @@ main {
 }
 
 .boton-contactar:hover {
-    /* transform: translateY(-2px); */
     transform: scale(1.2);
     background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
     background-size: 300%;
@@ -147,9 +142,9 @@ main {
     display: none;
 }
 
-/* AQUÍ TERMINA EL NAV*/
+/* AQUÍ TERMINA EL --------------------NAV-------------------*/
 
-/* AQUI EMPIEZA EL MAIN DE INDEX */
+/* AQUI EMPIEZA EL --------------------MAIN DE INDEX --------------------*/
 /* AQUI EMPIEZA SECTION ONE */
 
 
@@ -161,49 +156,27 @@ main {
 .section_one__img {
     width: 100%;
     position: relative;
-    background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
+
     background-size: cover;
-    transition: background-position 4s;
+    transition: background-position 2s;
     z-index: 3;
 }
 
 .section_one__img:hover {
-    /* transform: translateX(50%); */
+    background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
     background-position-x: 24vw;
-    /* background-position: 600px; */
-    background-filter: brightness(10%);
-}
-
-
- .section_one__img--flecha {
-    width: 100%;
-    z-index: 2;
-    /* filter: brightness(50%); */
-    /* left: 43%;
-    top: 4.5vh; */
-    transition: transform 4s;
 }
 
 
 
-/* .section_one__img--flecha:hover {
-    transform: translateY(-2px);
-    transform: scale(1);
-    background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
-    background-size: 300%;
-    background-position: right;
-    color: #A9A9A9;
-    
-} */
+
 
 .section_one__h2 {
     position: absolute;
     top: 25%;
     left: 9%;
-    /* font-size: 2.6rem; */
     font-size: 3vw;
     font-family: "Hind Madurai", sans-serif;
-    /* text-shadow: .09rem -.05rem .3rem #b40404; */
     z-index: 9;
     transition: text-shadow 2s;
 }
@@ -216,6 +189,8 @@ main {
 
 
 /* AQUI TERMINA SECTION ONE */
+
+
 /* AQUI EMPIEZA SECTION TWO */
 
 .section_two {
@@ -274,7 +249,6 @@ ol li::marker {
     display: flex;
     justify-content: center;
     align-items: end;
-    /* margin: 4vh; */
 }
 .boton-contactar2 {
     width: 50vw;
@@ -284,11 +258,10 @@ ol li::marker {
     background-color: #A9A9A9;
     cursor: pointer;
     background-position: left;
-    transition: background-position 4s;
+    transition: all 2s;
 }
 
 .boton-contactar2:hover {
-    /* transform: translateY(-2px); */
     transform: scale(1.2);
     background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
     background-size: 300%;
@@ -304,7 +277,7 @@ ol li::marker {
 
 /* AQUI TERMINA SECTION TWO */
 
-/* AQUI EMPIEZA FOOTER */
+/* AQUI EMPIEZA EL --------------------FOOTER-------------------- */
 
 footer {
     display: flex;
@@ -342,7 +315,7 @@ footer div a img {
 
 }
 
-/* AQUI TERMINA FOOTER  */
+/* AQUI TERMINA --------------------FOOTER--------------------  */
 
 /* AQUÍ termina --------------- INDEX ---------------*/
 
@@ -350,7 +323,6 @@ footer div a img {
 
 .main_contacto {
     background: url(../img/nuevos_posibles_fondos/fondo1dim3_1.jpg);
-    /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 100%;
@@ -370,8 +342,6 @@ footer div a img {
 .section_form form {
     grid-column-start: 2;
     margin: auto;
-    /* left: 55vw; */
-    /* top: 25vh; */
     border: 2px solid;
     border-radius: 30px;
     padding: 3vw;
@@ -379,7 +349,6 @@ footer div a img {
     gap: 1vh;
     width: 49%;
     max-height: 70%;
-    /* min-width: 30vw; */
     height: 90vh;
     margin-right: 16vw;
 }
@@ -409,7 +378,7 @@ footer div a img {
 /* AQUÍ COMIENZA --------------------NOSOTROS.HTML-------------------- */
 
 .main-nosotros {
-    background-color: #fc7d7d;
+    background-color: #940403;
 }
 
 
@@ -418,7 +387,6 @@ footer div a img {
 .section-nosotros {
     display: flex;
     margin-bottom: 10px;
-    border-bottom: #fc7d7d 60px;
 }
 
 .section-nosotros img {
@@ -437,7 +405,7 @@ footer div a img {
     top: 50vh; */
     font-size: rem;
     color: #000000;
-    text-shadow: .05rem -.05rem  #A9A9A9;
+    text-shadow: .05rem -.05rem  #ffffff;
     display: grid;
     gap: 3rem;
 }
@@ -464,7 +432,8 @@ footer div a img {
     justify-content: center;
     text-align: center;
     /* background: linear-gradient(45deg, #490e0e, #b40404); */
-    background-color: #fc7d7d;
+    background-color: #940403;
+    text-shadow: .1rem -.1rem  #000000;
 }
 
 .section-nosotros-dos img {
