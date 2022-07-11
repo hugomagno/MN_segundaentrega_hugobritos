@@ -121,7 +121,7 @@ main {
     background-color: #CAEBF2;
     cursor: pointer;
     background-position: left;
-    transition: background-position 4s;
+    transition: all 2s;
 }
 
 .boton-contactar:hover {
@@ -157,7 +157,7 @@ main {
     width: 100%;
     position: relative;
     background-size: cover;
-    transition: background-position 2s;
+    transition: background-position 4s;
     z-index: 3;
 }
 
@@ -207,6 +207,7 @@ main {
 .section_two__div_one--h2 {
     font-size: 4em;
     background: linear-gradient(95deg, #740000, #B30000);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-left: 10%;
