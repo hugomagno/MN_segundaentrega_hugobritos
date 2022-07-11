@@ -395,15 +395,12 @@ footer div a img {
     width: 100%;
     opacity: 50%;
     background-color: lightsteelblue; 
-    /* background: linear-gradient(rgba( 5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)) ; */
 }
 
 .section-nosotros div {
     position: absolute;
     text-align: center;
     margin: 20% 20%;
-    /* left: 50vh;
-    top: 50vh; */
     font-size: rem;
     color: #000000;
     text-shadow: .05rem -.05rem  #ffffff;
@@ -432,14 +429,12 @@ footer div a img {
     display: flex;
     justify-content: center;
     text-align: center;
-    /* background: linear-gradient(45deg, #490e0e, #b40404); */
     background-color: #940403;
     text-shadow: .1rem -.1rem  #000000;
 }
 
 .section-nosotros-dos img {
     max-width: 50%;
-    /* max-height: 50vw; */
 
 }
 
@@ -447,14 +442,9 @@ footer div a img {
     margin: 25% 3%;    
     font-size: 2vw;
     box-shadow: .05rem -.05rem  #A9A9A9;
-    text-shadow: .1
-    rem -.1rem  black;
+    text-shadow: .1rem -.1rem  black;
     color: white;
-
 }
-
-
-
 
 
 
@@ -466,6 +456,10 @@ footer div a img {
 /* AQUÍ EMPIEZA --------------------¿POR QUÉ.HTML-------------------- */
 
 /* AQUI EMPIEZA SECTION 1 */
+
+
+
+
 .section-porque-uno {
     display: grid;
     max-width: 600px;
@@ -620,7 +614,6 @@ footer div a img {
 
 
 
-/* medias queries, Se rompe en 1009px arrancar desde ahí ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 980px) {
     .section_two__div_two {
@@ -631,7 +624,6 @@ footer div a img {
         display: flex;
         justify-content: center;
         padding: 3vw;
-        /* text-align: center; */
     }
     .main-precios {
         display: grid;
@@ -655,7 +647,6 @@ footer div a img {
     .section_two__div_one--h2 {
         font-size: 3.2em;
         margin-left: 10%;
-        /* left: 10%; */
     }
 
     .main-precios ul li {
@@ -770,8 +761,6 @@ footer div a img {
     }
     .main-precios section {
         width: 60vw;
-        /* margin: 5vw;
-        font-size: vh; */
     }
 
     .main-precios ul li {
