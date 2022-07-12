@@ -1,0 +1,22 @@
+{
+  "name": "proyectosass",
+  "version": "1.0.0",
+  "description": "Proyecto practico para Coder",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomagno/MN_segundaentrega_hugobritos.git"
+  },
+  "author": "Hugo B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugomagno/MN_segundaentrega_hugobritos/issues"
+  },
+  "homepage": "https://github.com/hugomagno/MN_segundaentrega_hugobritos#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

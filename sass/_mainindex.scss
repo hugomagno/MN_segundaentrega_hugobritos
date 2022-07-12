@@ -1,0 +1,128 @@
+.section_one__div {
+    display: flex;
+    border-bottom: 8px #A9A9A9 solid;
+}
+
+.section_one__img {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    transition: background-position 4s;
+    z-index: 3;
+}
+
+.section_one__img:hover {
+    background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
+    background-position-x: 24vw;
+    z-index: 4;
+}
+
+
+
+
+
+.section_one__h2 {
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    font-size: 3vw;
+    font-family: "Hind Madurai", sans-serif;
+    z-index: 9;
+    transition: text-shadow 2s;
+}
+
+.section_one__h2:hover {
+    text-shadow: .1rem -.1rem .1rem #b40404;
+}
+
+
+
+
+/* AQUI TERMINA SECTION ONE */
+
+
+/* AQUI EMPIEZA SECTION TWO */
+
+.section_two {
+    background: linear-gradient(95deg,#CAEBF2,#EFEFEF);
+    padding-bottom: 5em;
+}
+
+.section_two__div_one {
+    display: flex;
+    height: 20vw;
+    align-items: center;
+}
+
+.section_two__div_one--h2 {
+    font-size: 4em;
+    background: linear-gradient(95deg, #740000, #B30000);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10%;
+    left: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.section_two__div_two {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-top: 1vw solid;
+    padding-top: 2em;
+    justify-content: space-around;
+    font-size: 3.5vw;
+    list-style-type: none;
+}
+
+.section_two__div_two--subul {
+    font-size: .4em;
+    margin-top: 2em;
+    line-height: 2;
+    list-style-type: disc;
+}
+
+ol li::marker {
+     color: transparent;
+}
+
+.section_two__div_two--subul ::marker {
+    color: #B273E6;
+    font-size: 100%;
+}
+
+
+.botondos {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.boton-contactar2 {
+    width: 50vw;
+    height: 3vw;
+    font-size: 2.2vw;
+    border-radius: 2.5vw;
+    background-color: #A9A9A9;
+    cursor: pointer;
+    background-position: left;
+    transition: all 2s;
+    text-shadow: .1rem -.1rem .1rem  #000000;
+    color: white;
+}
+
+.boton-contactar2:hover {
+    transform: scale(1.2);
+    background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
+    background-size: 300%;
+    background-position: right;
+    color: #ffffff;
+    
+}
+
+.boton-contactar2:active {
+    transform: translate(10px);
+}
+
