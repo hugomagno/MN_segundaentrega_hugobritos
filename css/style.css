@@ -553,8 +553,7 @@ footer div a img {
   gap: 1vh;
   width: 49%;
   max-height: 70%;
-  height: 90vh;
-  margin-right: 16vw; }
+  height: 90vh; }
 
 .section_form label, .section_form input, .section_form button {
   font-size: 2vw;
