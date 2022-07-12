@@ -1,0 +1,70 @@
+
+
+
+.section-porque-uno {
+    display: grid;
+    max-width: 600px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    margin-top: 30px;
+}
+
+.section-porque-uno h1 {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.section-porque-uno img {
+    display: inline-block;
+    justify-content: center;
+}
+
+/* AQUI TERMINA SECTION 1 */
+
+/* AQUI EMPIEZA SECTION 2 */
+
+.section-5-art {
+    margin: 60px auto;
+    display: grid;
+    gap: 2rem;
+    text-shadow: .5px -.5px .0001rem white;
+    max-width: 90%;
+    font-size: 2vh;
+}
+
+.section-5-art h2 {
+    text-decoration: underline;
+}
+
+.articulos {
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.section-5-art--1 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque4.jpg) no-repeat center;
+    background-size: cover;
+
+}
+
+.section-5-art--2 {
+    background-color: #EFEFEF;
+}
+
+.section-5-art--3 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.section-5-art--4 {
+    background-color: #EFEFEF;
+}
+
+.section-5-art--5 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/apalancamiento1.jpg) no-repeat center;
+    background-size: cover;
+}

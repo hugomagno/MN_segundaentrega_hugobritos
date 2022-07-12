@@ -1,0 +1,187 @@
+
+
+@media screen and (max-width: 980px) {
+    .section_two__div_two {
+        display: block;
+        font-size: 6vw;
+    }
+    .tutu, .sec {
+        display: flex;
+        justify-content: center;
+        padding: 3vw;
+    }
+    .main-precios {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+    }
+
+    .section_form form {
+        width: 55%;
+    }
+
+
+}
+
+@media screen and (max-width: 926px) {
+    .section_one__h2 {
+        top: 16vw;
+    }
+
+    .section_two__div_one--h2 {
+        font-size: 3.2em;
+        margin-left: 10%;
+    }
+
+    .main-precios ul li {
+        font-size: 2.5vh;
+    }
+
+    .main-precios section {
+        width: 35vw;
+        margin: 5vw;
+    }
+
+    .section_form form {
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 799px) {
+    .main-precios ul li {
+        font-size: 2vh;
+    }
+    .section_form {
+        grid-template-columns: 1fr;
+    }
+
+    .section_form form {
+        grid-column-start: 1;
+    }
+
+    .section_form label,.section_form input,.section_form button, .section_form h2,.section_form h3 {
+        font-size: 3vw;
+    }
+   
+    .section_two__div_two--subul {
+        font-size: .5em;
+        margin-top: 2em;
+        line-height: 2;
+}
+
+    .boton-contactar2 {
+        width: 55vw;
+        height: 6vw;
+        font-size: 4.2vw;
+        border-radius: 2vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+    .main-precios section {
+        width: 40vw;
+    }
+
+    .nav__logo img {
+        height: 5vw;
+    }
+    
+    .nav__logo h1 {
+        display: inline-block;
+        font-size: 2.3vw;
+        width: max-content;        
+    }
+    
+    .nav__ul {
+        display: none;
+    }
+
+    .boton-contactar {
+        display: none;
+    }
+    
+    .section_one__h2 {
+        top: 20vw;
+    }
+
+    .section_two__div_one--h2 {
+        font-size: 7.2vw;
+        margin-left: 10%;
+        left: 10%;
+    }
+    footer div a img {
+        height: 8vw;
+        width: 8vw;
+    
+    }
+
+    footer div {
+        justify-items: space-evenly;
+        max-width: 25%;
+    }
+
+    .hamburguesa {
+        display: block;
+    }
+
+    .hamburguesa img {
+        width: 3vh;
+        height: 3vh;
+    }
+
+    .section-porque-uno img {
+        width: 90%;
+        margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 620px) {
+    .main-precios {    
+    grid-template-columns: 1fr;
+    }
+    .main-precios section {
+        width: 60vw;
+    }
+
+    .main-precios ul li {
+        font-size: 2.3vh;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .main-precios section {
+        width: 90vw;
+        margin: 5vw;
+    }
+
+    .section_form label,.section_form input,.section_form button, .section_form h2,.section_form h3 {
+        font-size: 4vw;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .main-precios {
+        grid-template-columns: 1fr;
+        align-items: stretch;
+        row-gap: 4vh;
+    }
+    .main-precios section {
+        max-height: 70vh;
+    }
+
+    .hamburguesa img {
+        width: 2.4vh;
+        height: 2.4vh;
+    }
+
+    .main-precios ul li {
+        font-size: 2.1vh;
+    }
+}
