@@ -260,33 +260,28 @@ footer div a img {
 .section-nosotros {
   display: flex;
   margin-bottom: 10px; }
-
-.section-nosotros img {
-  position: relative;
-  width: 100%;
-  opacity: 50%;
-  background-color: lightsteelblue; }
-
-.section-nosotros div {
-  position: absolute;
-  text-align: center;
-  margin: 20% 20%;
-  font-size: rem;
-  color: #000000;
-  text-shadow: .05rem -.05rem  #ffffff;
-  display: grid;
-  gap: 3rem; }
-
-.section-nosotros div h1 {
-  font-size: 5vw;
-  box-shadow: .05rem -.05rem  #A9A9A9;
-  border-radius: 15px; }
-
-.section-nosotros h2 {
-  font-size: 3.5vw;
-  border-bottom: 4px solid;
-  border-radius: 15px;
-  box-shadow: .05rem -.05rem  #A9A9A9; }
+  .section-nosotros img {
+    position: relative;
+    width: 100%;
+    opacity: 30%; }
+  .section-nosotros div {
+    position: absolute;
+    text-align: center;
+    margin: 20% 20%;
+    font-size: rem;
+    color: #000000;
+    text-shadow: 0.05rem -0.05rem #ffffff;
+    display: grid;
+    gap: 3rem; }
+    .section-nosotros div h1 {
+      font-size: 5vw;
+      box-shadow: 0.05rem -0.05rem #A9A9A9;
+      border-radius: 15px; }
+    .section-nosotros div h2 {
+      font-size: 3.5vw;
+      border-bottom: 4px solid;
+      border-radius: 15px;
+      box-shadow: 0.05rem -0.05rem #A9A9A9; }
 
 /* AQUI TERMINA NOSOTROS SECTION 1 */
 /* AQUI EMPIEZA NOSOTROS SECTION 2 */
@@ -295,17 +290,15 @@ footer div a img {
   justify-content: center;
   text-align: center;
   background-color: #940403;
-  text-shadow: .1rem -.1rem  #000000; }
-
-.section-nosotros-dos img {
-  max-width: 50%; }
-
-.section-nosotros-dos div {
-  margin: 25% 3%;
-  font-size: 2vw;
-  box-shadow: .05rem -.05rem  #A9A9A9;
-  text-shadow: .1rem -.1rem  black;
-  color: white; }
+  text-shadow: 0.1rem -0.1rem #000000; }
+  .section-nosotros-dos img {
+    max-width: 50%; }
+  .section-nosotros-dos div {
+    margin: 25% 3%;
+    font-size: 2vw;
+    box-shadow: 0.05rem -0.05rem #A9A9A9;
+    text-shadow: 0.1rem -0.1rem #000000;
+    color: #ffffff; }
 
 .section-porque-uno {
   display: grid;

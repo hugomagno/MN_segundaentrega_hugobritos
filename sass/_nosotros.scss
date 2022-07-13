@@ -1,41 +1,40 @@
 .main-nosotros {
-    background-color: #940403;
+    background-color: $clogo-bordo;
 }
 
 .section-nosotros {
     display: flex;
     margin-bottom: 10px;
-}
 
-.section-nosotros img {
-    position: relative;
-    width: 100%;
-    opacity: 50%;
-    background-color: lightsteelblue; 
-}
+    img {
+        position: relative;
+        width: 100%;
+        opacity: 30%;
+    }
 
-.section-nosotros div {
-    position: absolute;
-    text-align: center;
-    margin: 20% 20%;
-    font-size: rem;
-    color: #000000;
-    text-shadow: .05rem -.05rem  #ffffff;
-    display: grid;
-    gap: 3rem;
-}
+    div {
+        position: absolute;
+        text-align: center;
+        margin: 20% 20%;
+        font-size: rem;
+        color: $cnegro;
+        text-shadow: .05rem -.05rem  $cblanco;
+        display: grid;
+        gap: 3rem;
 
-.section-nosotros div h1 {
-    font-size: 5vw;
-    box-shadow: .05rem -.05rem  #A9A9A9;;
-    border-radius: 15px;
-}
+        h1 {
+            font-size: 5vw;
+            box-shadow: .05rem -.05rem  $cplata;
+            border-radius: 15px;
+        }
 
-.section-nosotros h2 {
-    font-size: 3.5vw;
-    border-bottom: 4px solid;
-    border-radius: 15px;
-    box-shadow: .05rem -.05rem  #A9A9A9;
+        h2 {
+            font-size: 3.5vw;
+            border-bottom: 4px solid;
+            border-radius: 15px;
+            box-shadow: .05rem -.05rem  $cplata;
+        }
+    }
 }
 
 /* AQUI TERMINA NOSOTROS SECTION 1 */
@@ -46,19 +45,18 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #940403;
-    text-shadow: .1rem -.1rem  #000000;
-}
+    background-color: $clogo-bordo;
+    text-shadow: .1rem -.1rem  $cnegro;
 
-.section-nosotros-dos img {
-    max-width: 50%;
+    img {
+        max-width: 50%;
+    }
 
-}
-
-.section-nosotros-dos div {
-    margin: 25% 3%;    
-    font-size: 2vw;
-    box-shadow: .05rem -.05rem  #A9A9A9;
-    text-shadow: .1rem -.1rem  black;
-    color: white;
+    div {
+        margin: 25% 3%;    
+        font-size: 2vw;
+        box-shadow: .05rem -.05rem  $cplata;
+        text-shadow: .1rem -.1rem  $cnegro;
+        color: $cblanco;
+    }
 }
