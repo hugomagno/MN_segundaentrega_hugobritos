@@ -30,3 +30,30 @@ header, footer {
 main {
     grid-area: main;
 }
+
+@mixin botero {
+    width: 12vw;
+    height: 3vw;
+    font-size: 2.2vw;
+    border-radius: 2.5vw;
+    background-color: #CAEBF2;
+    cursor: pointer;
+    background-position: left;
+    transition: all 2s;
+    &:hover {
+        transform: scale(1.2);
+        background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
+        background-size: 300%;
+        background-position: right;
+        color: #A9A9A9;
+    }
+    &:active {
+        transform: translate(10px);
+    }
+}
+
+
+@mixin artimagen($donde) {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), $donde, no-repeat center;
+    background-size: cover;
+}
