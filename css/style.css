@@ -92,7 +92,7 @@ main {
   transition: all 2s; }
   .boton-contactar:hover {
     transform: scale(1.2);
-    background-image: linear-gradient(to right, #72c6d1, #8f0505, #ff0303);
+    background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
     background-size: 300%;
     background-position: right;
     color: #A9A9A9; }
@@ -112,11 +112,10 @@ main {
   background-size: cover;
   transition: background-position 4s;
   z-index: 3; }
-
-.section_one__img:hover {
-  background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
-  background-position-x: 24vw;
-  z-index: 4; }
+  .section_one__img:hover {
+    background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
+    background-position-x: 24vw;
+    z-index: 4; }
 
 .section_one__h2 {
   position: absolute;
@@ -126,53 +125,47 @@ main {
   font-family: "Hind Madurai", sans-serif;
   z-index: 9;
   transition: text-shadow 2s; }
-
-.section_one__h2:hover {
-  text-shadow: .1rem -.1rem .1rem #b40404; }
+  .section_one__h2:hover {
+    text-shadow: .1rem -.1rem .1rem #b40404; }
 
 /* AQUI TERMINA SECTION ONE */
 /* AQUI EMPIEZA SECTION TWO */
 .section_two {
   background: linear-gradient(95deg, #CAEBF2, #EFEFEF);
   padding-bottom: 5em; }
-
-.section_two__div_one {
-  display: flex;
-  height: 20vw;
-  align-items: center; }
-
-.section_two__div_one--h2 {
-  font-size: 4em;
-  background: linear-gradient(95deg, #740000, #B30000);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-left: 10%;
-  left: 10%;
-  font-family: 'Roboto', sans-serif; }
-
-.section_two__div_two {
-  width: 90%;
-  margin: auto;
-  display: flex;
-  border-top: 1vw solid;
-  padding-top: 2em;
-  justify-content: space-around;
-  font-size: 3.5vw;
-  list-style-type: none; }
-
-.section_two__div_two--subul {
-  font-size: .4em;
-  margin-top: 2em;
-  line-height: 2;
-  list-style-type: disc; }
+  .section_two__div_one {
+    display: flex;
+    height: 20vw;
+    align-items: center; }
+    .section_two__div_one--h2 {
+      font-size: 4em;
+      background: linear-gradient(95deg, #740000, #B30000);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 10%;
+      left: 10%;
+      font-family: 'Roboto', sans-serif; }
+  .section_two__div_two {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    border-top: 1vw solid;
+    padding-top: 2em;
+    justify-content: space-around;
+    font-size: 3.5vw;
+    list-style-type: none; }
+    .section_two__div_two--subul {
+      font-size: .4em;
+      margin-top: 2em;
+      line-height: 2;
+      list-style-type: disc; }
+      .section_two__div_two--subul::marker {
+        color: #B273E6;
+        font-size: 100%; }
 
 ol li::marker {
   color: transparent; }
-
-.section_two__div_two--subul ::marker {
-  color: #B273E6;
-  font-size: 100%; }
 
 .botondos {
   display: flex;
@@ -180,21 +173,19 @@ ol li::marker {
   align-items: end; }
 
 .boton-contactar2 {
-  width: 12vw;
+  width: 50vw;
   height: 3vw;
   font-size: 2.2vw;
   border-radius: 2.5vw;
-  background-color: #CAEBF2;
+  background-color: #A9A9A9;
   cursor: pointer;
   background-position: left;
   transition: all 2s;
-  width: 50vw;
-  background-color: #A9A9A9;
-  color: white;
-  text-shadow: .1rem -.1rem .1rem  #000000; }
+  color: #ffffff;
+  text-shadow: 0.1rem -0.1rem 0.1rem #000000; }
   .boton-contactar2:hover {
     transform: scale(1.2);
-    background-image: linear-gradient(to right, #72c6d1, #8f0505, #ff0303);
+    background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
     background-size: 300%;
     background-position: right;
     color: #A9A9A9; }
@@ -286,16 +277,14 @@ footer div a img {
   text-align: center;
   gap: 3rem;
   margin-top: 30px; }
-
-.section-porque-uno h1 {
-  max-width: 90%;
-  margin: auto;
-  text-align: center;
-  text-decoration: underline; }
-
-.section-porque-uno img {
-  display: inline-block;
-  justify-content: center; }
+  .section-porque-uno h1 {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline; }
+  .section-porque-uno img {
+    display: inline-block;
+    justify-content: center; }
 
 /* AQUI TERMINA SECTION 1 */
 /* AQUI EMPIEZA SECTION 2 */
@@ -303,34 +292,28 @@ footer div a img {
   margin: 60px auto;
   display: grid;
   gap: 2rem;
-  text-shadow: .5px -.5px .0001rem white;
+  text-shadow: 0.5px -0.5px 0.0001rem #ffffff;
   max-width: 90%;
   font-size: 2vh; }
-
-.section-5-art h2 {
-  text-decoration: underline; }
+  .section-5-art h2 {
+    text-decoration: underline; }
+  .section-5-art--1 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque4.jpg), no-repeat center;
+    background-size: cover; }
+  .section-5-art--2 {
+    background-color: #EFEFEF; }
+  .section-5-art--3 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque22.jpg), no-repeat center;
+    background-size: cover; }
+  .section-5-art--4 {
+    background-color: #EFEFEF; }
+  .section-5-art--5 {
+    background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/apalancamiento12.jpg), no-repeat center;
+    background-size: cover; }
 
 .articulos {
   padding: 15px;
   border-radius: 15px; }
-
-.section-5-art--1 {
-  background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque4.jpg), no-repeat center;
-  background-size: cover; }
-
-.section-5-art--2 {
-  background-color: #EFEFEF; }
-
-.section-5-art--3 {
-  background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/porque22.jpg), no-repeat center;
-  background-size: cover; }
-
-.section-5-art--4 {
-  background-color: #EFEFEF; }
-
-.section-5-art--5 {
-  background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), url(../img/por_que/apalancamiento12.jpg), no-repeat center;
-  background-size: cover; }
 
 .main-precios {
   display: flex;

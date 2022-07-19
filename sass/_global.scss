@@ -31,21 +31,21 @@ main {
     grid-area: main;
 }
 
-@mixin botero {
-    width: 12vw;
+@mixin botero($tama, $cfondo) {
+    width: $tama;
     height: 3vw;
     font-size: 2.2vw;
     border-radius: 2.5vw;
-    background-color: #CAEBF2;
+    background-color: $cfondo;
     cursor: pointer;
     background-position: left;
     transition: all 2s;
     &:hover {
         transform: scale(1.2);
-        background-image: linear-gradient(to right, rgb(114, 198, 209),rgb(143, 5, 5), rgb(255, 3, 3));
+        background-image: linear-gradient(to right, $ccelestito , $clogo-bordo, $clogo-rojo);
         background-size: 300%;
         background-position: right;
-        color: #A9A9A9;
+        color: $cplata;
     }
     &:active {
         transform: translate(10px);

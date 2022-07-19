@@ -1,96 +1,82 @@
-.section_one__div {
-    display: flex;
-    border-bottom: 8px #A9A9A9 solid;
+
+
+.section_one {
+    &__div {
+        display: flex;
+        border-bottom: 8px #A9A9A9 solid;    
+    }
+    &__img {
+        width: 100%;
+        position: relative;
+        background-size: cover;
+        transition: background-position 4s;
+        z-index: 3;
+        &:hover {
+            background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
+            background-position-x: 24vw;
+            z-index: 4;
+        }
+    }
+    &__h2 {
+        position: absolute;
+        top: 25%;
+        left: 9%;
+        font-size: 3vw;
+        font-family: "Hind Madurai", sans-serif;
+        z-index: 9;
+        transition: text-shadow 2s;
+        &:hover {
+            text-shadow: .1rem -.1rem .1rem #b40404;
+        }
+    }
 }
-
-.section_one__img {
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    transition: background-position 4s;
-    z-index: 3;
-}
-
-.section_one__img:hover {
-    background-image: url("../img/nuevos_posibles_fondos/logo_fondo_flecha.png");
-    background-position-x: 24vw;
-    z-index: 4;
-}
-
-
-
-
-
-.section_one__h2 {
-    position: absolute;
-    top: 25%;
-    left: 9%;
-    font-size: 3vw;
-    font-family: "Hind Madurai", sans-serif;
-    z-index: 9;
-    transition: text-shadow 2s;
-}
-
-.section_one__h2:hover {
-    text-shadow: .1rem -.1rem .1rem #b40404;
-}
-
-
-
-
 /* AQUI TERMINA SECTION ONE */
-
 
 /* AQUI EMPIEZA SECTION TWO */
 
 .section_two {
     background: linear-gradient(95deg,#CAEBF2,#EFEFEF);
     padding-bottom: 5em;
+    &__div_one {
+        display: flex;
+        height: 20vw;
+        align-items: center;
+        &--h2 {
+            font-size: 4em;
+            background: linear-gradient(95deg, #740000, #B30000);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-left: 10%;
+            left: 10%;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    &__div_two {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        border-top: 1vw solid;
+        padding-top: 2em;
+        justify-content: space-around;
+        font-size: 3.5vw;
+        list-style-type: none;
+        &--subul {
+            font-size: .4em;
+            margin-top: 2em;
+            line-height: 2;
+            list-style-type: disc;
+            &::marker {
+                color: #B273E6;
+                font-size: 100%;
+            }
+        }
+    }
 }
 
-.section_two__div_one {
-    display: flex;
-    height: 20vw;
-    align-items: center;
-}
-
-.section_two__div_one--h2 {
-    font-size: 4em;
-    background: linear-gradient(95deg, #740000, #B30000);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-left: 10%;
-    left: 10%;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.section_two__div_two {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    border-top: 1vw solid;
-    padding-top: 2em;
-    justify-content: space-around;
-    font-size: 3.5vw;
-    list-style-type: none;
-}
-
-.section_two__div_two--subul {
-    font-size: .4em;
-    margin-top: 2em;
-    line-height: 2;
-    list-style-type: disc;
-}
 
 ol li::marker {
      color: transparent;
-}
-
-.section_two__div_two--subul ::marker {
-    color: #B273E6;
-    font-size: 100%;
 }
 
 
@@ -102,10 +88,8 @@ ol li::marker {
 }
 
 .boton-contactar2 {
-    @include botero;
-    width: 50vw;
-    background-color: $cplata;
-    color: white;
-    text-shadow: .1rem -.1rem .1rem  #000000;
+    @include botero (50vw, $cplata);
+    color: $cblanco;
+    text-shadow: .1rem -.1rem .1rem  $cnegro;
 }
 
