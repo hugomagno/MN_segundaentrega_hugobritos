@@ -4,32 +4,28 @@ footer {
     justify-content: space-around;
     grid-area: footer;
     align-items: center;
-   
-}
-
-footer h3 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
-    padding: 5em 0;
-    max-width: 60%;
-}
-
-footer div {
-    width: 10em;
-    display: flex;
-    justify-content: space-around;
-    padding: 1em 0;
-    align-items: center;
-}
-footer div a {
-    height: 1em;
-    width: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-footer div a img {
-    height: 4em;
-    width: 4em;
-
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1vw;
+        padding: 5em 0;
+        max-width: 60%;
+    }
+    div {
+        width: 10em;
+        display: flex;
+        justify-content: space-around;
+        padding: 1em 0;
+        align-items: center;
+        a {
+            height: 1em;
+            width: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                height: 4em;
+                width: 4em;
+            }
+        }
+    }   
 }
