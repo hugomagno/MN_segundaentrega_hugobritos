@@ -1,3 +1,30 @@
+.link-one {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #A9A9A9;
+  background-color: #940403; }
+
+.link-two {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #A9A9A9;
+  background-color: #A20000; }
+
+.link-three {
+  margin: 0;
+  text-align: center;
+  font-size: 2.2em;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #A9A9A9;
+  background-color: #b40404; }
+
 * {
   margin: 0;
   padding: 0;
@@ -327,30 +354,12 @@ footer {
   align-items: center;
   background-color: #CAEBF2;
   padding: 5%; }
-
-.main-precios section {
-  background: #fc7d7d;
-  font-family: 'Roboto', sans-serif;
-  width: 30vw;
-  margin: 1vw;
-  color: #EFEFEF; }
-
-.precios-titulo {
-  margin: 0;
-  text-align: center;
-  font-size: 2.2em;
-  text-transform: uppercase;
-  padding: 10px;
-  color: #A9A9A9; }
-
-.one {
-  background-color: #740000; }
-
-.two {
-  background-color: #950303; }
-
-.three {
-  background-color: #B30000; }
+  .main-precios section {
+    background: #fc7d7d;
+    font-family: 'Roboto', sans-serif;
+    width: 30vw;
+    margin: 1vw;
+    color: #EFEFEF; }
 
 .primer-li span {
   display: block;

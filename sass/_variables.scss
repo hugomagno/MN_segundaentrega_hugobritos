@@ -1,9 +1,33 @@
 $clogo-bordo: #940403;
+$clogo-intermedio: #A20000;
+$clogo-rojo: #b40404;
 $cplata: #A9A9A9;
 $ccelestito: #CAEBF2;
-$clogo-rojo: #b40404;
 $cblanco: #ffffff;
 $cnegro: #000000;
 $cgrisin: #EFEFEF;
 $cfucsia: #B273E6;
 $otro: #840403;
+
+// MAPS & BUCLE EACH
+
+$tarjetaPrecios: (
+    // llave: valor,
+    one: $clogo-bordo,
+    two: $clogo-intermedio,
+    three: $clogo-rojo,
+);
+
+// Bucle each
+
+@each $nombre, $color in $tarjetaPrecios {
+    .link-#{$nombre} {
+        margin: 0;
+        text-align: center;
+        font-size: 2.2em;
+        text-transform: uppercase;
+        padding: 10px;
+        color: #A9A9A9;        
+        background-color: $color;
+    }    
+}
