@@ -32,24 +32,6 @@
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Yrsa', serif; }
 
-.color1 {
-  color: #b40404; }
-
-.color2 {
-  color: #fc7d7d; }
-
-.color3 {
-  color: #950303; }
-
-.color4 {
-  color: #CAEBF2; }
-
-.color5 {
-  color: #A9A9A9; }
-
-.color6 {
-  color: #EFEFEF; }
-
 body {
   display: grid;
   grid-template-areas: "nav nav nav" "main main main" "footer footer footer";
@@ -360,33 +342,29 @@ footer {
     width: 30vw;
     margin: 1vw;
     color: #EFEFEF; }
-
-.primer-li span {
-  display: block;
-  font-size: 3em; }
-
-.main-precios ul li {
-  list-style-type: none;
-  text-align: center;
-  border-bottom: 1px solid black;
-  padding: 10px;
-  font-size: 2.3vh; }
-
-.main-precios ul li a {
-  text-decoration: none;
-  color: black;
-  background: white;
-  font-size: 2.7vh;
-  text-transform: uppercase;
-  display: block;
-  padding: 1.5vh;
-  border-radius: 20px;
-  transition: background-color 2s, font-size 3s; }
-
-.main-precios ul li a:hover {
-  background-color: #A9A9A9;
-  color: white;
-  font-size: 200%; }
+    .main-precios section .primer-li span {
+      display: block;
+      font-size: 3em; }
+    .main-precios section ul li {
+      list-style-type: none;
+      text-align: center;
+      border-bottom: 1px solid black;
+      padding: 10px;
+      font-size: 2.3vh; }
+      .main-precios section ul li a {
+        text-decoration: none;
+        color: #000000;
+        background: #ffffff;
+        font-size: 2.7vh;
+        text-transform: uppercase;
+        display: block;
+        padding: 1.5vh;
+        border-radius: 20px;
+        transition: background-color .3s, color .3s, font-size 1s; }
+        .main-precios section ul li a:hover {
+          background-color: #A9A9A9;
+          color: white;
+          font-size: 150%; }
 
 .main_contacto {
   background: url(../img/nuevos_posibles_fondos/fondo1dim3_1.jpg);

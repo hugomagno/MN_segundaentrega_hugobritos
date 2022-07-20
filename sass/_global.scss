@@ -6,13 +6,6 @@
     font-family: 'Yrsa', serif; 
 }
 
-.color1 {color: #b40404;}
-.color2 {color: #fc7d7d;} 
-.color3 {color: #950303;}
-.color4 {color: #CAEBF2;}
-.color5 {color: #A9A9A9;}
-.color6 {color: #EFEFEF;}
-
 body {
     display: grid;
     grid-template-areas: 
@@ -23,7 +16,7 @@ body {
 }
 
 header, footer {
-    background-color: #EFEFEF;
+    background-color: $cgrisin;
 }
 
 

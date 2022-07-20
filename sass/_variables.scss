@@ -8,6 +8,7 @@ $cnegro: #000000;
 $cgrisin: #EFEFEF;
 $cfucsia: #B273E6;
 $otro: #840403;
+$cnaranja: #fc7d7d;
 
 // MAPS & BUCLE EACH
 
@@ -27,7 +28,7 @@ $tarjetaPrecios: (
         font-size: 2.2em;
         text-transform: uppercase;
         padding: 10px;
-        color: #A9A9A9;        
+        color: $cplata;        
         background-color: $color;
     }    
 }
