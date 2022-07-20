@@ -170,9 +170,9 @@ main {
       margin-top: 2em;
       line-height: 2;
       list-style-type: disc; }
-      .section_two__div_two--subul::marker {
-        color: #B273E6;
-        font-size: 100%; }
+      .section_two__div_two--subul li::marker {
+        color: #b40404;
+        font-size: 150%; }
 
 ol li::marker {
   color: transparent; }

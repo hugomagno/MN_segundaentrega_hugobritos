@@ -61,23 +61,24 @@
         justify-content: space-around;
         font-size: 3.5vw;
         list-style-type: none;
+
         &--subul {
             font-size: .4em;
             margin-top: 2em;
             line-height: 2;
             list-style-type: disc;
-            &::marker {
-                color: #B273E6;
-                font-size: 100%;
+            li::marker {
+                color: $clogo-rojo;
+                font-size: 150%;
             }
         }
     }
 }
 
+        ol li::marker {
+             color: transparent;
+        }
 
-ol li::marker {
-     color: transparent;
-}
 
 
 .botondos {
