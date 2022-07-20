@@ -39,9 +39,9 @@ main {
     background-color: $cfondo;
     cursor: pointer;
     background-position: left;
-    transition: all 2s;
+    transition: all .8s;
     &:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         background-image: linear-gradient(to right, $ccelestito , $clogo-bordo, $clogo-rojo);
         background-size: 300%;
         background-position: right;
@@ -56,4 +56,17 @@ main {
 @mixin artimagen($donde) {
     background: linear-gradient(rgba(238, 240, 243, 0.7), rgba(235, 236, 238, 0.5)), $donde, no-repeat center;
     background-size: cover;
+}
+
+// EXTENDS
+.extendcontact {
+    font-size: 2vw;
+    max-width: 80%;
+    max-height: 80%;    
+}
+
+.titles {
+    font-size: 2vw; 
+    text-shadow: .15rem -.15rem .3rem $clogo-rojo;
+    color: $cblanco;
 }

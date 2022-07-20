@@ -97,6 +97,8 @@
     
     .nav__ul {
         display: none;
+        color: red;
+        // background-color: black;
     }
 
     .boton-contactar {
@@ -160,10 +162,9 @@
         margin: 5vw;
     }
 
-    .section_form label,.section_form input,.section_form button, .section_form h2,.section_form h3 {
+    .section_form label,.section_form button, .section_form h2,.section_form h3 {
         font-size: 4vw;
     }
-
 }
 
 @media screen and (max-width: 426px) {
