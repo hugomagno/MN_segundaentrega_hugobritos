@@ -18,6 +18,7 @@
             }
             & img {
                 height: 3.5vw;
+                width: auto;
                 &:hover {
                     transform: scale(120%);
                 }

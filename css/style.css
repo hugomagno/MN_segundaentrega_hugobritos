@@ -70,7 +70,8 @@ main {
       .header .nav__logo a {
         align-self: center; }
       .header .nav__logo img {
-        height: 3.5vw; }
+        height: 3.5vw;
+        width: auto; }
         .header .nav__logo img:hover {
           transform: scale(120%); }
       .header .nav__logo h1 {
