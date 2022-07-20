@@ -24,6 +24,8 @@ main {
     grid-area: main;
 }
 
+// MIXINS
+
 @mixin botero($tama, $cfondo) {
     width: $tama;
     height: 3vw;

@@ -145,7 +145,7 @@ main {
   z-index: 9;
   transition: text-shadow 2s; }
   .section_one__h2:hover {
-    text-shadow: .1rem -.1rem .1rem #b40404; }
+    text-shadow: 0.5rem -0.5rem 0.3rem #b40404; }
 
 /* AQUI TERMINA SECTION ONE */
 /* AQUI EMPIEZA SECTION TWO */
@@ -158,7 +158,7 @@ main {
     align-items: center; }
     .section_two__div_one--h2 {
       font-size: 4em;
-      background: linear-gradient(95deg, #740000, #B30000);
+      background: linear-gradient(to right, #000000, #940403, #A20000, #b40404);
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

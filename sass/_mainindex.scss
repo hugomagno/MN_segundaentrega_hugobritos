@@ -3,7 +3,7 @@
 .section_one {
     &__div {
         display: flex;
-        border-bottom: 8px #A9A9A9 solid;    
+        border-bottom: 8px $cplata solid;    
     }
     &__img {
         width: 100%;
@@ -26,7 +26,7 @@
         z-index: 9;
         transition: text-shadow 2s;
         &:hover {
-            text-shadow: .1rem -.1rem .1rem #b40404;
+            text-shadow: .5rem -.5rem .3rem $clogo-rojo;
         }
     }
 }
@@ -35,7 +35,7 @@
 /* AQUI EMPIEZA SECTION TWO */
 
 .section_two {
-    background: linear-gradient(95deg,#CAEBF2,#EFEFEF);
+    background: linear-gradient(95deg,$ccelestito,$cgrisin);
     padding-bottom: 5em;
     &__div_one {
         display: flex;
@@ -43,7 +43,7 @@
         align-items: center;
         &--h2 {
             font-size: 4em;
-            background: linear-gradient(95deg, #740000, #B30000);
+            background: linear-gradient(to right, $cnegro, $clogo-bordo, $clogo-intermedio, $clogo-rojo);
             background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
