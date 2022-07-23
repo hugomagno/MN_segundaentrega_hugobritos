@@ -95,11 +95,11 @@
         width: max-content;        
     }
     
-    .nav__ul {
-        display: none;
-        color: red;
-        // background-color: black;
-    }
+    .nav {
+        &__ul {
+            display: none !important; 
+        }
+    } 
 
     .boton-contactar {
         display: none;
