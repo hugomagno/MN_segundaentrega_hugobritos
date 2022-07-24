@@ -124,7 +124,8 @@ main {
 
 .section_one__div {
   display: flex;
-  border-bottom: 8px #A9A9A9 solid; }
+  border-bottom: 8px #A9A9A9 solid;
+  position: relative; }
 
 .section_one__img {
   width: 100%;
@@ -345,18 +346,18 @@ footer {
     color: #EFEFEF; }
     .main-precios section .primer-li span {
       display: block;
-      font-size: 3em; }
+      font-size: 5vw; }
     .main-precios section ul li {
       list-style-type: none;
       text-align: center;
       border-bottom: 1px solid black;
       padding: 10px;
-      font-size: 2.3vh; }
+      font-size: 2.3vw; }
       .main-precios section ul li a {
         text-decoration: none;
         color: #000000;
         background: #ffffff;
-        font-size: 2.7vh;
+        font-size: 2.7vw;
         text-transform: uppercase;
         display: block;
         padding: 1.5vh;
@@ -396,7 +397,8 @@ footer {
     cursor: pointer;
     background-position: left;
     transition: all .8s;
-    color: #000000; }
+    color: #000000;
+    height: 5vh; }
     .section_form button:hover {
       transform: scale(1.1);
       background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
@@ -422,8 +424,6 @@ footer {
     width: 55%; } }
 
 @media screen and (max-width: 926px) {
-  .section_one__h2 {
-    top: 16vw; }
   .section_two__div_one--h2 {
     font-size: 3.2em;
     margin-left: 10%; }
@@ -467,8 +467,6 @@ footer {
     display: none !important; }
   .boton-contactar {
     display: none; }
-  .section_one__h2 {
-    top: 20vw; }
   .section_two__div_one--h2 {
     font-size: 7.2vw;
     margin-left: 10%;

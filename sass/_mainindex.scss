@@ -3,7 +3,8 @@
 .section_one {
     &__div {
         display: flex;
-        border-bottom: 8px $cplata solid;    
+        border-bottom: 8px $cplata solid;
+        position: relative;
     }
     &__img {
         width: 100%;

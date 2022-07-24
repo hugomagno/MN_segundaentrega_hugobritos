@@ -31,6 +31,7 @@
         @include botero (100%, $cgrisin);
         @extend .titles;
         color: $cnegro;
+        height: 5vh;
     }
 }
 

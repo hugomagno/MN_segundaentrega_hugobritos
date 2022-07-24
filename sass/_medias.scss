@@ -25,9 +25,6 @@
 }
 
 @media screen and (max-width: 926px) {
-    .section_one__h2 {
-        top: 16vw;
-    }
 
     .section_two__div_one--h2 {
         font-size: 3.2em;
@@ -61,10 +58,11 @@
         grid-column-start: 1;
     }
 
-    .section_form label,.section_form input,.section_form button, .section_form h2,.section_form h3 {
+
+    .section_form label, .section_form input, .section_form button, .section_form h2, .section_form h3 {
         font-size: 3vw;
     }
-   
+
     .section_two__div_two--subul {
         font-size: .5em;
         margin-top: 2em;
@@ -105,10 +103,6 @@
         display: none;
     }
     
-    .section_one__h2 {
-        top: 20vw;
-    }
-
     .section_two__div_one--h2 {
         font-size: 7.2vw;
         margin-left: 10%;
