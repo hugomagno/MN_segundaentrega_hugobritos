@@ -1,7 +1,7 @@
 .link-one {
   margin: 0;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 4.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -10,7 +10,7 @@
 .link-two {
   margin: 0;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 4.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -19,7 +19,7 @@
 .link-three {
   margin: 0;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 4.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -29,7 +29,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif; */
   font-family: 'Yrsa', serif; }
 
 body {
@@ -109,7 +108,7 @@ main {
   background-color: #CAEBF2;
   cursor: pointer;
   background-position: left;
-  transition: all .8s; }
+  transition: all .3s; }
   .boton-contactar:hover {
     transform: scale(1.1);
     background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
@@ -201,7 +200,7 @@ ol li::marker {
   background-color: #A9A9A9;
   cursor: pointer;
   background-position: left;
-  transition: all .8s;
+  transition: all .3s;
   color: #ffffff;
   text-shadow: 0.1rem -0.1rem 0.1rem #000000; }
   .boton-contactar2:hover {
@@ -360,7 +359,7 @@ footer {
         font-size: 2.7vw;
         text-transform: uppercase;
         display: block;
-        padding: 1.5vh;
+        padding: 1vh;
         border-radius: 20px;
         transition: background-color .3s, color .3s, font-size 1s; }
         .main-precios section ul li a:hover {
@@ -396,7 +395,7 @@ footer {
     background-color: #EFEFEF;
     cursor: pointer;
     background-position: left;
-    transition: all .8s;
+    transition: all .3s;
     color: #000000;
     height: 5vh; }
     .section_form button:hover {

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Yrsa', serif; 
 }
 
@@ -34,7 +33,7 @@ main {
     background-color: $cfondo;  
     cursor: pointer;
     background-position: left;
-    transition: all .8s;
+    transition: all .3s;
     &:hover {
         transform: scale(1.1);
         background-image: linear-gradient(to right, $ccelestito , $clogo-bordo, $clogo-rojo);
