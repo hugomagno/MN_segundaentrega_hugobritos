@@ -28,7 +28,7 @@ main {
 @mixin botero($tama, $cfondo, $alto) {
     width: $tama;
     height: $alto;
-    font-size: 1.8vh;
+    font-size: 2.8vh;
     border-radius: 2.5vw;
     background-color: $cfondo;  
     cursor: pointer;

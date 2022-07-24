@@ -103,7 +103,7 @@ main {
 .boton-contactar {
   width: 12vw;
   height: 4.2vh;
-  font-size: 1.8vh;
+  font-size: 2.8vh;
   border-radius: 2.5vw;
   background-color: #CAEBF2;
   cursor: pointer;
@@ -195,7 +195,7 @@ ol li::marker {
 .boton-contactar2 {
   width: 50vw;
   height: 4.8vh;
-  font-size: 1.8vh;
+  font-size: 2.8vh;
   border-radius: 2.5vw;
   background-color: #A9A9A9;
   cursor: pointer;
@@ -390,7 +390,7 @@ footer {
   .section_form button {
     width: 100%;
     height: 4.5vh;
-    font-size: 1.8vh;
+    font-size: 2.8vh;
     border-radius: 2.5vw;
     background-color: #EFEFEF;
     cursor: pointer;
