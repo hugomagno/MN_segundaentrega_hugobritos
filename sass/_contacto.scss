@@ -28,10 +28,9 @@
         @extend .titles;
     }
     button {
-        @include botero (100%, $cgrisin);
+        @include botero (100%, $cgrisin, 4.5vh);
         @extend .titles;
         color: $cnegro;
-        height: 5vh;
     }
 }
 

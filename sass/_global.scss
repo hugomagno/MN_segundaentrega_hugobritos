@@ -25,10 +25,10 @@ main {
 
 // MIXINS
 
-@mixin botero($tama, $cfondo) {
+@mixin botero($tama, $cfondo, $alto) {
     width: $tama;
-    height: 3vw;
-    font-size: 2.2vw;
+    height: $alto;
+    font-size: 1.8vh;
     border-radius: 2.5vw;
     background-color: $cfondo;  
     cursor: pointer;

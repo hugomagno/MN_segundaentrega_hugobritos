@@ -90,7 +90,7 @@
 }
 
 .boton-contactar2 {
-    @include botero (50vw, $cplata);
+    @include botero (50vw, $cplata, 4.8vh);
     color: $cblanco;
     text-shadow: .1rem -.1rem .1rem  $cnegro;
 }

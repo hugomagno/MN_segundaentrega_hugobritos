@@ -102,8 +102,8 @@ main {
 
 .boton-contactar {
   width: 12vw;
-  height: 3vw;
-  font-size: 2.2vw;
+  height: 4.2vh;
+  font-size: 1.8vh;
   border-radius: 2.5vw;
   background-color: #CAEBF2;
   cursor: pointer;
@@ -194,8 +194,8 @@ ol li::marker {
 
 .boton-contactar2 {
   width: 50vw;
-  height: 3vw;
-  font-size: 2.2vw;
+  height: 4.8vh;
+  font-size: 1.8vh;
   border-radius: 2.5vw;
   background-color: #A9A9A9;
   cursor: pointer;
@@ -389,15 +389,14 @@ footer {
     height: 60vh; }
   .section_form button {
     width: 100%;
-    height: 3vw;
-    font-size: 2.2vw;
+    height: 4.5vh;
+    font-size: 1.8vh;
     border-radius: 2.5vw;
     background-color: #EFEFEF;
     cursor: pointer;
     background-position: left;
     transition: all .3s;
-    color: #000000;
-    height: 5vh; }
+    color: #000000; }
     .section_form button:hover {
       transform: scale(1.1);
       background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
