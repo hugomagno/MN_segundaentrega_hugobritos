@@ -21,16 +21,18 @@
         max-height: 70%;
         height: 60vh;
     }
-    label {
+    label, input {
         @extend .extendcontact;
+    }
+    input {
+        min-height: 4vh;
+        font-size: 3vh;
     }
     h2, h3 {
         @extend .titles;
     }
     button {
         @include botero (100%, $cgrisin, 4.5vh);
-        @extend .titles;
         color: $cnegro;
     }
 }
-

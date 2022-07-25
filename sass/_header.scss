@@ -2,22 +2,24 @@
     border-bottom: 1vh $cplata solid;
     padding-top: 1vh;
     grid-area: nav;
+    min-height: 110px;
     .nav {
         width: 100%;
+        height: 100%;
         max-width: 1600px;
         margin: auto;
         display: flex;
         align-items: center;
         justify-content: space-around;
-
+        
         &__logo {
             display: flex;
             flex-direction: column;
             & a {
                 align-self: center;
             }
-            & img {
-                height: 3.5vw;
+             img {
+                height: 5.5vw;
                 width: auto;
                 &:hover {
                     transform: scale(120%);

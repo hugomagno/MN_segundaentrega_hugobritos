@@ -42,12 +42,12 @@ header, footer {
 main {
   grid-area: main; }
 
-.extendcontact, .section_form label {
-  font-size: 2vw;
-  max-width: 80%;
+.extendcontact, .section_form label, .section_form input {
+  font-size: 4vh;
+  max-width: 100%;
   max-height: 80%; }
 
-.titles, .section_form h2, .section_form h3, .section_form button {
+.titles, .section_form h2, .section_form h3 {
   font-size: 2vw;
   text-shadow: 0.15rem -0.15rem 0.3rem #b40404;
   color: #ffffff; }
@@ -55,9 +55,11 @@ main {
 .header {
   border-bottom: 1vh #A9A9A9 solid;
   padding-top: 1vh;
-  grid-area: nav; }
+  grid-area: nav;
+  min-height: 110px; }
   .header .nav {
     width: 100%;
+    height: 100%;
     max-width: 1600px;
     margin: auto;
     display: flex;
@@ -69,7 +71,7 @@ main {
       .header .nav__logo a {
         align-self: center; }
       .header .nav__logo img {
-        height: 3.5vw;
+        height: 5.5vw;
         width: auto; }
         .header .nav__logo img:hover {
           transform: scale(120%); }
@@ -387,6 +389,9 @@ footer {
     width: 49%;
     max-height: 70%;
     height: 60vh; }
+  .section_form input {
+    min-height: 4vh;
+    font-size: 3vh; }
   .section_form button {
     width: 100%;
     height: 4.5vh;
@@ -431,7 +436,9 @@ footer {
     width: 35vw;
     margin: 5vw; }
   .section_form form {
-    width: 65%; } }
+    width: 65%; }
+  .boton-contactar {
+    font-size: 2.2vh; } }
 
 @media screen and (max-width: 799px) {
   .main-precios ul li {
@@ -455,14 +462,14 @@ footer {
 @media screen and (max-width: 720px) {
   .main-precios section {
     width: 40vw; }
-  .nav__logo img {
-    height: 5vw; }
-  .nav__logo h1 {
+  .header .nav__logo img {
+    height: 7vw; }
+  .header .nav__logo h1 {
     display: inline-block;
     font-size: 2.3vw;
     width: max-content; }
-  .nav__ul {
-    display: none !important; }
+  .header .nav__ul {
+    display: none; }
   .boton-contactar {
     display: none; }
   .section_two__div_one--h2 {
@@ -493,6 +500,10 @@ footer {
     font-size: 2.3vh; } }
 
 @media screen and (max-width: 500px) {
+  .header .nav__logo img {
+    height: 10vw; }
+  .header .nav__logo h1 {
+    font-size: 3.3vw; }
   .main-precios section {
     width: 90vw;
     margin: 5vw; }
@@ -506,8 +517,5 @@ footer {
     row-gap: 4vh; }
   .main-precios section {
     max-height: 70vh; }
-  .hamburguesa img {
-    width: 2.4vh;
-    height: 2.4vh; }
   .main-precios ul li {
     font-size: 2.1vh; } }
