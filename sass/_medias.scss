@@ -99,7 +99,7 @@
                     width: max-content;        
                 }
             }
-            &__ul {
+            &__desktop {
                 display: none; 
             }
         }
@@ -129,10 +129,6 @@
         display: block;
     }
 
-    .hamburguesa img {
-        width: 3vh;
-        height: 3vh;
-    }
 
     .section-porque-uno img {
         width: 90%;

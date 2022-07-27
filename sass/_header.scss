@@ -32,7 +32,7 @@
             }
         }
 
-        &__ul {
+        &__desktop {
             display: flex;
             & li {
                 list-style: none;
@@ -62,10 +62,43 @@
     }
 }
 
+
+
 .boton-contactar {
     @include botero (12vw, $ccelestito, 4.2vh);
 }
 
 .hamburguesa {
     display: none;
+    position: relative;
+    z-index: 999;
+    &:hover > ul {
+        display: block;
+    }
+    img {
+        width: 4vh;
+        height: 4vh;
+    }
+    ul {
+        display: none;        
+        position: absolute;
+        right: 0;
+        top: 8vh;
+        width: 50vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to right, $clogo-bordo, $clogo-intermedio , $clogo-rojo);
+        li {
+            padding: 25px 0;
+            text-align: center;
+            list-style: none;
+            a {
+                color: $cblanco;
+                font-weight: bold;
+                font-size: 150%;
+            }
+            &:nth-child(even) {
+                background-color: lighten($clogo-bordo, 3%);
+            }
+        }
+    }
 }
