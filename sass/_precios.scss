@@ -5,7 +5,7 @@
     align-items: center;
     background-color: $ccelestito;
     padding: 5%;
-    section {
+        section {
         background: $cnaranja;
         font-family: 'Roboto', sans-serif;
         width: 30vw;
@@ -34,7 +34,7 @@
                 &:hover {
                     background-color: $cplata;
                     color: white;
-                    font-size: 150%;
+                    font-size: 120%;
                 }
             }
         }
