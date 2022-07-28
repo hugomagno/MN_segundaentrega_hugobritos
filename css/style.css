@@ -1,7 +1,7 @@
 .link-one {
   margin: 0;
   text-align: center;
-  font-size: 3.2vw;
+  font-size: 3.5vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -10,7 +10,7 @@
 .link-two {
   margin: 0;
   text-align: center;
-  font-size: 3.2vw;
+  font-size: 3.5vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -19,7 +19,7 @@
 .link-three {
   margin: 0;
   text-align: center;
-  font-size: 3.2vw;
+  font-size: 3.5vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -58,7 +58,7 @@ main {
   right: 2vw;
   border-radius: 50%; }
   .whatsapp a img {
-    width: 4.8vw;
+    width: 9.8vw;
     border-radius: 38%; }
 
 .header {
@@ -109,7 +109,7 @@ main {
           width: 100%; }
         .header .nav__desktop li a {
           text-decoration: none;
-          color: black; }
+          color: #000000; }
 
 .boton-contactar {
   width: 14vw;
@@ -501,7 +501,9 @@ footer {
     width: 55vw;
     height: 6vw;
     font-size: 4.2vw;
-    border-radius: 2vw; } }
+    border-radius: 2vw; }
+  .whatsapp a img {
+    width: 11.8vw; } }
 
 @media screen and (max-width: 720px) {
   .main-precios section {
@@ -544,7 +546,9 @@ footer {
       .main-precios section ul li {
         font-size: 3.3vw; }
         .main-precios section ul li a {
-          font-size: 3.7vw; } }
+          font-size: 3.7vw; }
+  .whatsapp a img {
+    width: 13.8vw; } }
 
 @media screen and (max-width: 500px) {
   .header .nav__logo img {
@@ -565,4 +569,6 @@ footer {
   .main-precios section {
     max-height: 70vh; }
   .main-precios ul li {
-    font-size: 2.1vh; } }
+    font-size: 2.1vh; }
+  .whatsapp a img {
+    width: 14.8vw; } }
