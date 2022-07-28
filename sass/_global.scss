@@ -28,7 +28,7 @@ main {
 @mixin botero($tama, $cfondo, $alto) {
     width: $tama;
     height: $alto;
-    font-size: 2.8vh;
+    font-size: 3.8vh;
     border-radius: 2.5vw;
     background-color: $cfondo;  
     cursor: pointer;
@@ -72,10 +72,11 @@ main {
     bottom: 2.3vh;
     right: 2vw;
     border-radius: 50%;
-
-    a{
+    z-index: 799;
+    
+    a {
         img {
-            width: 9.8vw;
+            width: 8.8vw;
             border-radius: 38%;
         }
     }

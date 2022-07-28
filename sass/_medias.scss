@@ -3,8 +3,16 @@
 @media screen and (max-width: 980px) {
     .section_two__div_two {
         display: block;
-        font-size: 6vw;
+        font-size: 10vw;
+        padding-top: 1vh;
     }
+    .section_two__div_one--h2 {
+        font-size: 9vw;
+    }
+
+    
+
+
     .tutu, .sec {
         display: flex;
         justify-content: center;
@@ -48,7 +56,7 @@
 @media screen and (max-width: 926px) {
 
     .section_two__div_one--h2 {
-        font-size: 3.2em;
+        // font-size: 10vw;
         margin-left: 10%;
     }
 
@@ -134,7 +142,6 @@
     }
     
     .section_two__div_one--h2 {
-        font-size: 7.2vw;
         margin-left: 10%;
         left: 10%;
     }

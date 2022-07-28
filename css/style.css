@@ -56,9 +56,10 @@ main {
   position: fixed;
   bottom: 2.3vh;
   right: 2vw;
-  border-radius: 50%; }
+  border-radius: 50%;
+  z-index: 799; }
   .whatsapp a img {
-    width: 9.8vw;
+    width: 8.8vw;
     border-radius: 38%; }
 
 .header {
@@ -85,15 +86,16 @@ main {
         .header .nav__logo img:hover {
           transform: scale(120%); }
       .header .nav__logo h1 {
-        font-size: 1.1vw;
+        font-size: 1.4vw;
         font-family: "Hind Madurai", sans-serif;
-        width: max-content; }
+        width: max-content;
+        z-index: 1002; }
     .header .nav__desktop {
       display: flex; }
       .header .nav__desktop li {
         list-style: none;
         margin: 0 1.3em;
-        font-size: 2vw;
+        font-size: 2.4vw;
         position: relative;
         font-family: 'Roboto', sans-serif; }
         .header .nav__desktop li::before {
@@ -114,7 +116,7 @@ main {
 .boton-contactar {
   width: 14vw;
   height: 4.2vw;
-  font-size: 2.8vh;
+  font-size: 3.8vh;
   border-radius: 2.5vw;
   background-color: #CAEBF2;
   cursor: pointer;
@@ -133,7 +135,7 @@ main {
 .hamburguesa {
   display: none;
   position: relative;
-  z-index: 999; }
+  z-index: 100; }
   .hamburguesa:hover > ul {
     display: block; }
   .hamburguesa img {
@@ -231,7 +233,7 @@ ol li::marker {
 .boton-contactar2 {
   width: 50vw;
   height: 4.8vh;
-  font-size: 2.8vh;
+  font-size: 3.8vh;
   border-radius: 2.5vw;
   background-color: #A9A9A9;
   cursor: pointer;
@@ -256,9 +258,8 @@ footer {
   align-items: center; }
   footer h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
-    padding: 5em 0;
-    max-width: 60%; }
+    font-size: 1.5vw;
+    padding: 5em 0; }
   footer div {
     width: 10em;
     display: flex;
@@ -273,7 +274,8 @@ footer {
       justify-content: center; }
       footer div a img {
         height: 4em;
-        width: 4em; }
+        width: 4em;
+        z-index: 800; }
 
 .main-nosotros {
   background-color: #940403; }
@@ -323,12 +325,13 @@ footer {
 
 .section-porque-uno {
   display: grid;
-  max-width: 600px;
+  max-width: 1000px;
   margin: auto;
   justify-content: center;
   text-align: center;
   gap: 3rem;
-  margin-top: 30px; }
+  margin-top: 30px;
+  font-size: 130%; }
   .section-porque-uno h1 {
     max-width: 90%;
     margin: auto;
@@ -336,7 +339,7 @@ footer {
     text-decoration: underline; }
   .section-porque-uno img {
     display: inline-block;
-    justify-content: center; }
+    margin: auto; }
 
 /* AQUI TERMINA SECTION 1 */
 /* AQUI EMPIEZA SECTION 2 */
@@ -430,7 +433,7 @@ footer {
   .section_form button {
     width: 100%;
     height: 4.5vh;
-    font-size: 2.8vh;
+    font-size: 3.8vh;
     border-radius: 2.5vw;
     background-color: #EFEFEF;
     cursor: pointer;
@@ -449,7 +452,10 @@ footer {
 @media screen and (max-width: 980px) {
   .section_two__div_two {
     display: block;
-    font-size: 6vw; }
+    font-size: 10vw;
+    padding-top: 1vh; }
+  .section_two__div_one--h2 {
+    font-size: 9vw; }
   .tutu, .sec {
     display: flex;
     justify-content: center;
@@ -480,7 +486,6 @@ footer {
 
 @media screen and (max-width: 926px) {
   .section_two__div_one--h2 {
-    font-size: 3.2em;
     margin-left: 10%; }
   .main-precios ul li {
     font-size: 2.5vh; }
@@ -524,7 +529,6 @@ footer {
   .boton-contactar {
     display: none; }
   .section_two__div_one--h2 {
-    font-size: 7.2vw;
     margin-left: 10%;
     left: 10%; }
   footer div a img {

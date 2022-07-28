@@ -26,9 +26,10 @@
                 }
             }
             & h1 {
-                font-size: 1.1vw;
+                font-size: 1.4vw;
                 font-family: "Hind Madurai", sans-serif;
-                width: max-content;        
+                width: max-content; 
+                z-index: 1002;       
             }
         }
 
@@ -37,7 +38,7 @@
             & li {
                 list-style: none;
                 margin: 0 1.3em;
-                font-size: 2vw;
+                font-size: 2.4vw;
                 position: relative;
                 font-family: 'Roboto', sans-serif;
                 &::before {
@@ -72,7 +73,7 @@
 .hamburguesa {
     display: none;
     position: relative;
-    z-index: 999;
+    z-index: 100;
     &:hover > ul {
         display: block;
     }

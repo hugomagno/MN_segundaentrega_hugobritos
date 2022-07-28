@@ -3,12 +3,13 @@
 
 .section-porque-uno {
     display: grid;
-    max-width: 600px;
+    max-width: 1000px;
     margin: auto;
     justify-content: center;
     text-align: center;
     gap: 3rem;
     margin-top: 30px;
+    font-size: 130%;
    
     h1 {
         max-width: 90%;
@@ -19,7 +20,7 @@
 
     img {
         display: inline-block;
-        justify-content: center;
+        margin: auto;
     }
 }
 
