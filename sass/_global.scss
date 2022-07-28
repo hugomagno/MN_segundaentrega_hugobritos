@@ -64,3 +64,19 @@ main {
     text-shadow: .15rem -.15rem .3rem $clogo-rojo;
     color: $cblanco;
 }
+
+// botón whatsapp
+
+.whatsapp {
+    position: fixed;
+    bottom: 2.3vh;
+    right: 2vw;
+    border-radius: 50%;
+
+    a{
+        img {
+            width: 4.8vw;
+            border-radius: 38%;
+        }
+    }
+}

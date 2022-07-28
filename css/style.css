@@ -1,7 +1,7 @@
 .link-one {
   margin: 0;
   text-align: center;
-  font-size: 4.2vw;
+  font-size: 3.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -10,7 +10,7 @@
 .link-two {
   margin: 0;
   text-align: center;
-  font-size: 4.2vw;
+  font-size: 3.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -19,7 +19,7 @@
 .link-three {
   margin: 0;
   text-align: center;
-  font-size: 4.2vw;
+  font-size: 3.2vw;
   text-transform: uppercase;
   padding: 10px;
   color: #A9A9A9;
@@ -51,6 +51,15 @@ main {
   font-size: 2vw;
   text-shadow: 0.15rem -0.15rem 0.3rem #b40404;
   color: #ffffff; }
+
+.whatsapp {
+  position: fixed;
+  bottom: 2.3vh;
+  right: 2vw;
+  border-radius: 50%; }
+  .whatsapp a img {
+    width: 4.8vw;
+    border-radius: 38%; }
 
 .header {
   border-bottom: 1vh #A9A9A9 solid;
@@ -103,14 +112,15 @@ main {
           color: black; }
 
 .boton-contactar {
-  width: 12vw;
-  height: 4.2vh;
+  width: 14vw;
+  height: 4.2vw;
   font-size: 2.8vh;
   border-radius: 2.5vw;
   background-color: #CAEBF2;
   cursor: pointer;
   background-position: left;
-  transition: all .3s; }
+  transition: all .3s;
+  font-size: 3vw; }
   .boton-contactar:hover {
     transform: scale(1.1);
     background-image: linear-gradient(to right, #CAEBF2, #940403, #b40404);
@@ -363,27 +373,28 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: #CAEBF2;
-  padding: 5%; }
+  padding: 5%;
+  height: calc(100vh - 161px); }
   .main-precios section {
     background: #fc7d7d;
     font-family: 'Roboto', sans-serif;
-    width: 30vw;
+    width: 26vw;
     margin: 1vw;
     color: #EFEFEF; }
     .main-precios section .primer-li span {
       display: block;
-      font-size: 5vw; }
+      font-size: 3.5vw; }
     .main-precios section ul li {
       list-style-type: none;
       text-align: center;
-      border-bottom: 1px solid black;
+      border-bottom: 1px solid #000000;
       padding: 10px;
-      font-size: 2.3vw; }
+      font-size: 1.3vw; }
       .main-precios section ul li a {
         text-decoration: none;
         color: #000000;
         background: #ffffff;
-        font-size: 2.7vw;
+        font-size: 1.7vw;
         text-transform: uppercase;
         display: block;
         padding: 1vh;
@@ -391,7 +402,7 @@ footer {
         transition: background-color .3s, color .3s, font-size 1s; }
         .main-precios section ul li a:hover {
           background-color: #A9A9A9;
-          color: white;
+          color: #ffffff;
           font-size: 120%; }
 
 .main_contacto {
@@ -447,7 +458,18 @@ footer {
   .main-precios {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-items: center; }
+    justify-items: center;
+    padding: 5%;
+    height: 100%; }
+    .main-precios section {
+      width: 36vw;
+      margin: 4vw; }
+      .main-precios section .primer-li span {
+        font-size: 4vw; }
+      .main-precios section ul li {
+        font-size: 2.3vw; }
+        .main-precios section ul li a {
+          font-size: 2.7vw; }
   .section_form form {
     width: 55%; } }
 
@@ -458,12 +480,9 @@ footer {
   .main-precios ul li {
     font-size: 2.5vh; }
   .main-precios section {
-    width: 35vw;
-    margin: 5vw; }
+    width: 35vw; }
   .section_form form {
-    width: 65%; }
-  .boton-contactar {
-    font-size: 2.2vh; } }
+    width: 65%; } }
 
 @media screen and (max-width: 799px) {
   .main-precios ul li {
@@ -515,11 +534,17 @@ footer {
 
 @media screen and (max-width: 620px) {
   .main-precios {
-    grid-template-columns: 1fr; }
-  .main-precios section {
-    width: 60vw; }
-  .main-precios ul li {
-    font-size: 2.3vh; } }
+    grid-template-columns: 1fr;
+    padding: 5%; }
+    .main-precios section {
+      width: 65vw;
+      margin: 3vw; }
+      .main-precios section .primer-li span {
+        font-size: 8vw; }
+      .main-precios section ul li {
+        font-size: 3.3vw; }
+        .main-precios section ul li a {
+          font-size: 3.7vw; } }
 
 @media screen and (max-width: 500px) {
   .header .nav__logo img {
@@ -527,7 +552,7 @@ footer {
   .header .nav__logo h1 {
     font-size: 3.3vw; }
   .main-precios section {
-    width: 90vw;
+    width: 80vw;
     margin: 5vw; }
   .section_form label, .section_form button, .section_form h2, .section_form h3 {
     font-size: 4vw; } }

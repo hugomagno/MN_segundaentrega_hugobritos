@@ -5,27 +5,28 @@
     align-items: center;
     background-color: $ccelestito;
     padding: 5%;
+    height: calc(100vh - 161px);
         section {
         background: $cnaranja;
         font-family: 'Roboto', sans-serif;
-        width: 30vw;
+        width: 26vw;
         margin: 1vw;
         color: $cgrisin;
         .primer-li span {
             display: block;
-            font-size: 5vw;
+            font-size: 3.5vw;
         }
         ul li {
             list-style-type: none;
             text-align: center;
-            border-bottom: 1px solid black;
+            border-bottom: 1px solid $cnegro;
             padding: 10px;
-            font-size: 2.3vw;
+            font-size: 1.3vw;
             a {
                 text-decoration: none;
                 color: $cnegro;
                 background: $cblanco;
-                font-size: 2.7vw;
+                font-size: 1.7vw;
                 text-transform: uppercase;
                 display: block;
                 padding: 1vh;
@@ -33,7 +34,7 @@
                 transition: background-color .3s, color .3s, font-size 1s;
                 &:hover {
                     background-color: $cplata;
-                    color: white;
+                    color: $cblanco;
                     font-size: 120%;
                 }
             }

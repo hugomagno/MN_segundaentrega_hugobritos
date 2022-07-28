@@ -65,7 +65,8 @@
 
 
 .boton-contactar {
-    @include botero (12vw, $ccelestito, 4.2vh);
+    @include botero (14vw, $ccelestito, 4.2vw);
+    font-size: 3vw;
 }
 
 .hamburguesa {
