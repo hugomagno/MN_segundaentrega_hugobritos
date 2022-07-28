@@ -467,11 +467,17 @@ footer {
       .main-precios section .primer-li span {
         font-size: 4vw; }
       .main-precios section ul li {
-        font-size: 2.3vw; }
+        font-size: 3.3vw; }
         .main-precios section ul li a {
           font-size: 2.7vw; }
   .section_form form {
-    width: 55%; } }
+    width: 55%; }
+  .link-one {
+    font-size: 6vw; }
+  .link-two {
+    font-size: 6vw; }
+  .link-three {
+    font-size: 6vw; } }
 
 @media screen and (max-width: 926px) {
   .section_two__div_one--h2 {
@@ -544,9 +550,15 @@ footer {
       .main-precios section .primer-li span {
         font-size: 8vw; }
       .main-precios section ul li {
-        font-size: 3.3vw; }
+        font-size: 5.3vw; }
         .main-precios section ul li a {
           font-size: 3.7vw; }
+    .main-precios .link-one {
+      font-size: 8.5vw; }
+    .main-precios .link-two {
+      font-size: 8.5vw; }
+    .main-precios .link-three {
+      font-size: 8.5vw; }
   .whatsapp a img {
     width: 13.8vw; } }
 

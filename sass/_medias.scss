@@ -25,18 +25,23 @@
             font-size: 4vw;
         }
         ul li {
-            font-size: 2.3vw;
+            font-size: 3.3vw;
             a {
                 font-size: 2.7vw;
             }
         }
         }
     }
+       
 
     .section_form form {
         width: 55%;
     }
-
+    @each $nombre, $color in $tarjetaPrecios {
+        .link-#{$nombre} {
+            font-size: 6vw;
+        }     
+    }
 
 }
 
@@ -170,11 +175,16 @@
             font-size: 8vw;
         }
         ul li {
-            font-size: 3.3vw;
+            font-size: 5.3vw;
             a {
                 font-size: 3.7vw;
             }
         }
+        }
+        @each $nombre, $color in $tarjetaPrecios {
+            .link-#{$nombre} {
+                font-size: 8.5vw;
+            }    
         }
     }
     .whatsapp {
