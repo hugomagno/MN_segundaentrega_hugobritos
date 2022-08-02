@@ -48,16 +48,19 @@ main {
   max-height: 80%; }
 
 .titles, .section_form h2, .section_form h3 {
-  font-size: 2vw;
+  font-size: 3vw;
   text-shadow: 0.15rem -0.15rem 0.3rem #b40404;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center; }
 
 .whatsapp {
   position: fixed;
-  bottom: 2.3vh;
+  bottom: 8.3vh;
   right: 2vw;
   border-radius: 50%;
-  z-index: 799; }
+  z-index: 799;
+  opacity: 85%;
+  margin-bottom: 25vh; }
   .whatsapp a img {
     width: 8.8vw;
     border-radius: 38%; }
@@ -97,7 +100,8 @@ main {
         margin: 0 1.3em;
         font-size: 2.4vw;
         position: relative;
-        font-family: 'Roboto', sans-serif; }
+        font-family: 'Roboto', sans-serif;
+        width: max-content; }
         .header .nav__desktop li::before {
           content: "";
           height: 2px;
@@ -177,9 +181,9 @@ main {
 
 .section_one__h2 {
   position: absolute;
-  top: 25%;
-  left: 9%;
-  font-size: 3vw;
+  top: 15%;
+  left: 6%;
+  font-size: 4vw;
   font-family: "Hind Madurai", sans-serif;
   z-index: 9;
   transition: text-shadow 2s; }
@@ -258,7 +262,7 @@ footer {
   align-items: center; }
   footer h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5vw;
+    font-size: 2.3vw;
     padding: 5em 0; }
   footer div {
     width: 10em;
@@ -278,11 +282,12 @@ footer {
         z-index: 800; }
 
 .main-nosotros {
-  background-color: #940403; }
+  background: linear-gradient(95deg, #CAEBF2, #CAEBF2, #EFEFEF);
+  min-height: 65vh; }
 
 .section-nosotros {
   display: flex;
-  margin-bottom: 10px; }
+  padding-bottom: 1.2vh; }
   .section-nosotros img {
     position: relative;
     width: 100%;
@@ -297,11 +302,11 @@ footer {
     display: grid;
     gap: 3rem; }
     .section-nosotros div h1 {
-      font-size: 5vw;
+      font-size: 6vw;
       box-shadow: 0.05rem -0.05rem #A9A9A9;
       border-radius: 15px; }
     .section-nosotros div h2 {
-      font-size: 3.5vw;
+      font-size: 4vw;
       border-bottom: 4px solid;
       border-radius: 15px;
       box-shadow: 0.05rem -0.05rem #A9A9A9; }
@@ -312,13 +317,15 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  background-color: #940403;
-  text-shadow: 0.1rem -0.1rem #000000; }
+  background: linear-gradient(110deg, #CAEBF2, #CAEBF2, #EFEFEF, #A20000, #940403, #b40404);
+  text-shadow: 0.1rem -0.1rem #000000;
+  padding: 1.2vh; }
   .section-nosotros-dos img {
-    max-width: 50%; }
+    max-width: 50%;
+    opacity: 85%; }
   .section-nosotros-dos div {
     margin: 25% 3%;
-    font-size: 2vw;
+    font-size: 3vw;
     box-shadow: 0.05rem -0.05rem #A9A9A9;
     text-shadow: 0.1rem -0.1rem #000000;
     color: #ffffff; }
@@ -430,6 +437,8 @@ footer {
   .section_form input {
     min-height: 4vh;
     font-size: 3vh; }
+  .section_form h2, .section_form h3 {
+    text-align: center; }
   .section_form button {
     width: 100%;
     height: 4.5vh;
@@ -492,7 +501,9 @@ footer {
   .main-precios section {
     width: 35vw; }
   .section_form form {
-    width: 65%; } }
+    width: 65%; }
+  .whatsapp {
+    margin-bottom: 20vh; } }
 
 @media screen and (max-width: 799px) {
   .main-precios ul li {
@@ -509,11 +520,13 @@ footer {
     line-height: 2; }
   .boton-contactar2 {
     width: 55vw;
-    height: 6vw;
+    height: 9vw;
     font-size: 4.2vw;
     border-radius: 2vw; }
-  .whatsapp a img {
-    width: 11.8vw; } }
+  .whatsapp {
+    margin-bottom: 15vh; }
+    .whatsapp a img {
+      width: 11.8vw; } }
 
 @media screen and (max-width: 720px) {
   .main-precios section {
@@ -574,7 +587,9 @@ footer {
     width: 80vw;
     margin: 5vw; }
   .section_form label, .section_form button, .section_form h2, .section_form h3 {
-    font-size: 4vw; } }
+    font-size: 4vw; }
+  .whatsapp {
+    margin-bottom: 10vh; } }
 
 @media screen and (max-width: 426px) {
   .main-precios {

@@ -60,20 +60,24 @@ main {
 }
 
 .titles {
-    font-size: 2vw; 
+    font-size: 3vw; 
     text-shadow: .15rem -.15rem .3rem $clogo-rojo;
     color: $cblanco;
+    text-align: center;
 }
 
 // botón whatsapp
 
 .whatsapp {
     position: fixed;
-    bottom: 2.3vh;
+    bottom: 8.3vh;
+    // bottom: calc(8.3vh + 150px);
     right: 2vw;
     border-radius: 50%;
     z-index: 799;
-    
+    opacity: 85%;
+    margin-bottom: 25vh;
+
     a {
         img {
             width: 8.8vw;
@@ -81,4 +85,3 @@ main {
         }
     }
 }
-

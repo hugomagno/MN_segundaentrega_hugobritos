@@ -30,6 +30,7 @@
     }
     h2, h3 {
         @extend .titles;
+        text-align: center;
     }
     button {
         @include botero (100%, $cgrisin, 4.5vh);

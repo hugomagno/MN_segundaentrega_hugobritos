@@ -71,6 +71,9 @@
     .section_form form {
         width: 65%;
     }
+    .whatsapp {
+        margin-bottom: 20vh;
+    }
 
 }
  
@@ -99,12 +102,14 @@
 
     .boton-contactar2 {
         width: 55vw;
-        height: 6vw;
+        height: 9vw;
         font-size: 4.2vw;
         border-radius: 2vw;
     }
 
     .whatsapp {
+        margin-bottom: 15vh;
+        
         a{
             img {
                 width: 11.8vw;
@@ -225,6 +230,9 @@
 
     .section_form label,.section_form button, .section_form h2,.section_form h3 {
         font-size: 4vw;
+    }
+    .whatsapp {
+        margin-bottom: 10vh;
     }
 }
 

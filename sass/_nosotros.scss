@@ -1,10 +1,13 @@
 .main-nosotros {
-    background-color: $clogo-bordo;
+    background: linear-gradient(95deg,$ccelestito,$ccelestito,$cgrisin);
+    min-height: 65vh;
 }
+
+// Falta agregar las secciones correspondientes a las nuevas alianzas
 
 .section-nosotros {
     display: flex;
-    margin-bottom: 10px;
+    padding-bottom: 1.2vh;
 
     img {
         position: relative;
@@ -23,13 +26,13 @@
         gap: 3rem;
 
         h1 {
-            font-size: 5vw;
+            font-size: 6vw;
             box-shadow: .05rem -.05rem  $cplata;
             border-radius: 15px;
         }
 
         h2 {
-            font-size: 3.5vw;
+            font-size: 4vw;
             border-bottom: 4px solid;
             border-radius: 15px;
             box-shadow: .05rem -.05rem  $cplata;
@@ -45,16 +48,19 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: $clogo-bordo;
+    background: linear-gradient(110deg,$ccelestito,$ccelestito,$cgrisin,$clogo-intermedio,$clogo-bordo,$clogo-rojo);
+    // background-color: $clogo-bordo;
     text-shadow: .1rem -.1rem  $cnegro;
+    padding: 1.2vh;
 
     img {
         max-width: 50%;
+        opacity: 85%;
     }
 
     div {
         margin: 25% 3%;    
-        font-size: 2vw;
+        font-size: 3vw;
         box-shadow: .05rem -.05rem  $cplata;
         text-shadow: .1rem -.1rem  $cnegro;
         color: $cblanco;
