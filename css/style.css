@@ -342,6 +342,9 @@ footer {
     margin: auto;
     text-align: center;
     text-decoration: underline; }
+  .section-porque-uno p {
+    max-width: 90vw;
+    margin: auto; }
   .section-porque-uno img {
     display: inline-block;
     margin: auto; }
