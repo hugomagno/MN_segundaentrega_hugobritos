@@ -60,7 +60,7 @@ main {
   border-radius: 50%;
   z-index: 799;
   opacity: 85%;
-  margin-bottom: 25vh; }
+  margin-bottom: 23vh; }
   .whatsapp a img {
     width: 8.8vw;
     border-radius: 38%; }
@@ -259,26 +259,25 @@ footer {
   text-align: center;
   justify-content: space-around;
   grid-area: footer;
-  align-items: center; }
+  align-items: center;
+  max-height: 50vh; }
   footer h3 {
     font-family: 'Roboto', sans-serif;
     font-size: 2.3vw;
-    padding: 5em 0; }
+    padding: 10vh 0;
+    max-width: 76vw; }
   footer div {
-    width: 10em;
+    width: 12vw;
     display: flex;
     justify-content: space-around;
     padding: 1em 0;
     align-items: center; }
     footer div a {
-      height: 1em;
-      width: 1em;
       display: flex;
       align-items: center;
       justify-content: center; }
       footer div a img {
-        height: 4em;
-        width: 4em;
+        width: 5vw;
         z-index: 800; }
 
 .main-nosotros {
@@ -437,8 +436,6 @@ footer {
   .section_form input {
     min-height: 4vh;
     font-size: 3vh; }
-  .section_form h2, .section_form h3 {
-    text-align: center; }
   .section_form button {
     width: 100%;
     height: 4.5vh;

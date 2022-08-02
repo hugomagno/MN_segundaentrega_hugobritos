@@ -71,12 +71,11 @@ main {
 .whatsapp {
     position: fixed;
     bottom: 8.3vh;
-    // bottom: calc(8.3vh + 150px);
     right: 2vw;
     border-radius: 50%;
     z-index: 799;
     opacity: 85%;
-    margin-bottom: 25vh;
+    margin-bottom: 23vh;
 
     a {
         img {
