@@ -263,9 +263,9 @@ footer {
   max-height: 50vh; }
   footer h3 {
     font-family: 'Roboto', sans-serif;
-    font-size: 2.3vw;
+    font-size: 1.3vw;
     padding: 10vh 0;
-    max-width: 76vw; }
+    max-width: 65vw; }
   footer div {
     width: 12vw;
     display: flex;
@@ -281,7 +281,7 @@ footer {
         z-index: 800; }
 
 .main-nosotros {
-  background: linear-gradient(95deg, #CAEBF2, #CAEBF2, #EFEFEF);
+  background: linear-gradient(140deg, #CAEBF2, #CAEBF2, #EFEFEF, #CAEBF2, #A20000, #940403, #b40404);
   min-height: 65vh; }
 
 .section-nosotros {
@@ -316,7 +316,6 @@ footer {
   display: flex;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(110deg, #CAEBF2, #CAEBF2, #EFEFEF, #A20000, #940403, #b40404);
   text-shadow: 0.1rem -0.1rem #000000;
   padding: 1.2vh; }
   .section-nosotros-dos img {
@@ -324,7 +323,7 @@ footer {
     opacity: 85%; }
   .section-nosotros-dos div {
     margin: 25% 3%;
-    font-size: 3vw;
+    font-size: 2.5vw;
     box-shadow: 0.05rem -0.05rem #A9A9A9;
     text-shadow: 0.1rem -0.1rem #000000;
     color: #ffffff; }
